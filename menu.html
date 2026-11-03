@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food-To-Go</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- favicon  CDN -->
+     <link rel="icon" type="image/png" href="./media/food-to-go-round-favicon.png">
+    <!--Font Awesome CDN  --> 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@400..700&family=Changa+One:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Kaushan+Script&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <span id="website-name"
+          ><img style="width: 40px; height: 40px;" src="./media/food-to-go-round-favicon.png" alt=""></i>Food-To-Go</span
+        >
+        <input type="checkbox" id="check"/>
+        <label for="check" class="icons">
+          <i id="menuIcons" class="fa-solid fa-bars"></i>
+          <i id="cancelIcons" class="fa-regular fa-circle-xmark"></i>
+        </label>
+        <ul id="navlist" class="navlinks">
+          <li style="margin-top: 8px" class="links">
+            <a class="link" href="./index.html">Home</a>
+          </li>
+          <li style="margin-top: 8px" class="links">
+            <a class="link" href="./about.html">About</a>
+          </li>
+          <li style="margin-top: 8px" class="links">
+            <a class="link" href="./contact.html">Contact</a>
+          </li>
+          <a href="./contact.html#book-here">
+            <button class="book-now links">
+            Book Now <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button></a>
+          <!-- <li style="margin-top: 5px" class="links">
+            <a href=""
+              ><i
+                style="color: var(--text); font-size: 25px"
+                class="fa-solid fa-circle-user"
+              ></i
+            ></a>
+          </li> -->
+        </ul>
+    </nav> 
+    <!-- Starters section -->
+    <section class="starters">
+      <h2 style="font-size: 40px; text-align: center">Starters</h2>
+      <p style="text-align: center; margin-bottom: 40px; font-size: small;">
+        --- see our starter options ---
+      </p>
+      <div class="starters-container">
+        <div class="popular-card">
+          <img
+            id="popular-img"
+            src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Mozzarella-Sticks_EXPS_FT19_480_F_0814_1.jpg"
+            alt=""
+          />
+          <h3 style="margin-bottom: 10px; margin-left: 20px; color: white">
+            Mozzarella Sticks
+          </h3>
+          <p
+            style="
+              margin-bottom: 10px;
+              font-size: small;
+              margin-left: 0px;
+              padding: 0px 20px;
+              color: white;
+            "
+          >
+            Breaded mozzarella cheese sticks fried until golden and gooey
+            inside, paired with marinara sauce.
+          </p>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-weight: 700;
+              margin-left: 20px;
+              color: white;
+            "
+          >
+            $5
+          </p>
+          <button class="order-now-button">Add to Cart</button>
+          <button class="order-now-button">Order Now</button>
+        </div>
+        <div class="popular-card">
+          <img
+            id="popular-img"
+            src="https://www.foodandwine.com/thmb/_vE6faxYMdKmp3db2JLtEp0Fwwc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/calamari-d7d51d716c994ffa88636c88b2292658.jpg"
+            alt=""
+          />
+          <h3 style="margin-bottom: 10px; margin-left: 20px; color: white">
+            Calamari
+          </h3>
+          <p
+            style="
+              margin-bottom: 10px;
+              font-size: small;
+              margin-left: 0px;
+              padding: 0px 20px;
+              color: white;
+            "
+          >
+            Lightly breaded and deep-fried squid rings served with marinara or a
+            zesty garlic aioli.
+          </p>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-weight: 700;
+              margin-left: 20px;
+              color: white;
+            "
+          >
+            $4
+          </p>
+          <button class="order-now-button">Add to Cart</button>
+          <button class="order-now-button">Order Now</button>
+        </div>
+        <div class="popular-card">
+          <img
+            id="popular-img"
+            src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/3/31/0/EA1B07_9576_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1382545806234.webp"
+            alt=""
+          />
+          <h3 style="margin-bottom: 10px; margin-left: 20px; color: white">
+            Shrimp Cocktail
+          </h3>
+          <p
+            style="
+              margin-bottom: 10px;
+              font-size: small;
+              margin-left: 0px;
+              padding: 0px 20px;
+              color: white;
+            "
+          >
+            Chilled, poached jumbo shrimp served with a tangy horseradish-spiked
+            cocktail sauce and lemon wedges
+          </p>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-weight: 700;
+              margin-left: 20px;
+              color: white;
+            "
+          >
+            $8
+          </p>
+          <button class="order-now-button">Add to Cart</button>
+          <button class="order-now-button">Order Now</button>
+        </div>
+        <div class="popular-card">
+          <img
+            id="popular-img"
+            src="https://carveyourcraving.com/wp-content/uploads/2021/10/paneer-tikka-skewers.jpg"
+            alt=""
+          />
+          <h3 style="margin-bottom: 10px; margin-left: 20px; color: white">
+            Paneer Tikka
+          </h3>
+          <p
+            style="
+              margin-bottom: 10px;
+              font-size: small;
+              margin-left: 0px;
+              padding: 0px 20px;
+              color: white;
+            "
+          >
+            Cubes of paneer (cottage cheese) marinated in spiced yogurt and
+            grilled with onions and bell peppers in a tandoor.
+          </p>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-weight: 700;
+              margin-left: 20px;
+              color: white;
+            "
+          >
+            $5
+          </p>
+          <button class="order-now-button">Add to Cart</button>
+          <button class="order-now-button">Order Now</button>
+        </div>
+      </div>
+    </section>
+    <!-- Main Course section -->
+    <section class="maincrs">
+      <h2 style="font-size: 40px; text-align: center">Main Course</h2>
+      <p style="text-align: center; margin-bottom: 40px; font-size: small;">
+        --- see our main course options ---
+      </p>
+      <div class="starters-container">
+        <div class="popular-card starters-card">
+          <img
+            id="popular-img"
+            src="https://www.foodandwine.com/thmb/bOQnIoIFvkiIhR1npsL9I11sNlM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/virginia-fettuccine-alfredo-FT-RECIPE0425-b5f151f29f7d43f9b8630411792cbe8a.jpeg"
+            alt=""
+          />
+          <h3 style="margin-bottom: 10px; margin-left: 20px; color: black;">
+            Fettuccine Alfredo
+          </h3>
+          <p
+            style="
+              margin-bottom: 10px;
+              font-size: small;
+              margin-left: 0px;
+              padding: 0px 20px;
+              color: black;
+            "
+          >
+            Fettuccine Alfredo is a pasta dish consisting of fettuccine tossed
+            with butter and Parmesan cheese which is melted and emulsified to
+            form a rich cheese sauce coating the pasta.
+          </p>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-weight: 700;
+              margin-left: 20px;
+              color: black;
+            "
+          >
+            $14
+          </p>
+          <button class="order-now-button maincrs-button">Add to Cart</button>
+          <button class="order-now-button maincrs-button">Order Now</button>
+        </div>
+        <div class="popular-card starters-card">
+          <img
+            id="popular-img"
+            src="https://cdn.apartmenttherapy.info/image/upload/v1741014781/k/Photo/Recipes/2025-02-how-to-make-a-smash-burger/how-to-make-a-smash-burger-432.jpg"
+            alt=""
+          />
+          <h3 style="margin-bottom: 10px; margin-left: 20px; color: black">
+            All American Smash Burger
+          </h3>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-size: small;
+              margin-left: 0px;
+              padding: 0px 20px;
+              color: black;
+            "
+          >
+            Golden, lacy, and unbelievably crispy at the edges, this is burger
+            perfection in its purest form. In under sixty seconds, it's flipped,
+            crowned with a blanket of gooey, melted American cheese, and stacked
+            high inside a pillow-soft, toasted potato bun.
+          </p>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-weight: 700;
+              margin-left: 20px;
+              color: black;
+            "
+          >
+            $10
+          </p>
+          <button class="order-now-button maincrs-button">Add to Cart</button>
+          <button class="order-now-button maincrs-button">Order Now</button>
+        </div>
+        <div class="popular-card starters-card">
+          <img
+            id="popular-img"
+            src="https://assets.epicurious.com/photos/5b843bce1abfc56568396369/1:1/w_2560%2Cc_limit/Grilled-Chicken-with-Mustard-Sauce-and-Tomato-Salad-recipe-2-22082018.jpg"
+            alt=""
+          />
+          <h3 style="margin-bottom: 10px; margin-left: 20px; color: black">
+            Authentic BBQ Chicken
+          </h3>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-size: small;
+              margin-left: 0px;
+              padding: 0px 20px;
+              color: black;
+            "
+          >
+            Get ready for the ultimate BBQ chicken experience: smoky, tender,
+            and deeply satisfying. Every piece features juicy, flame-kissed meat
+            wrapped in a thick, sticky layer of caramelized barbecue sauce. It
+            is the timeless comfort food that turns any meal into a summer
+            celebration.
+          </p>
+          <p
+            style="
+              margin-bottom: 20px;
+              font-weight: 700;
+              margin-left: 20px;
+              color: black;
+            "
+          >
+            $15
+          </p>
+          <button class="order-now-button maincrs-button">Add to Cart</button>
+          <button class="order-now-button maincrs-button">Order Now</button>
+        </div>
+        <div class="popular-card starters-card">
+          <img
+            id="popular-img"
+            src="https://farm5.staticflickr.com/4206/34630446624_ec6133ed16_o_d.jpg"
+            alt=""
+          />
+          <h3 style="margin-bottom: 10px; margin-left: 20px; color: black">
+            Thalassery Chicken Biriyani
+          </h3>
+          <p
+            style="
+              margin-bottom: 10px;
+              font-size: small;
+              margin-left: 0px;
+              padding: 0px 20px;
+              color: black;
+            "
+          >
+            A fragrant, layered rice dish cooked with aromatic spices and a choice of chicken, mutton, or vegetables.
+          </p>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-weight: 700;
+              margin-left: 20px;
+              color: black;
+            "
+          >
+            $5
+          </p>
+          <button class="order-now-button maincrs-button">Add to Cart</button>
+          <button class="order-now-button maincrs-button">Order Now</button>
+        </div>
+      </div>
+    </section>
+    <!--Dessert Section  -->
+    <section class="desserts">
+      <h2 style="font-size: 40px; text-align: center">Desserts</h2>
+      <p style="text-align: center; margin-bottom: 40px; font-size: small;">
+        --- see our dessert options ---
+      </p>
+      <div class="starters-container">
+        <div class="popular-card">
+          <img
+            id="popular-img"
+            src="https://www.barleyandsage.com/wp-content/uploads/2025/05/tiramisu-1200x1200-1.jpg"
+            alt=""
+          />
+          <h3 style="margin-bottom: 10px; margin-left: 20px; color: white">
+            Tiramisu
+          </h3>
+          <p
+            style="
+              margin-bottom: 10px;
+              font-size: small;
+              margin-left: 0px;
+              padding: 0px 20px;
+              color: white;
+            "
+          >
+            An Italian classic layered with espresso-soaked ladyfingers and velvety mascarpone cheese, dusted with cocoa powder.
+          </p>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-weight: 700;
+              margin-left: 20px;
+              color: white;
+            "
+          >
+            $5
+          </p>
+          <button class="order-now-button">Add to Cart</button>
+          <button class="order-now-button">Order Now</button>
+        </div>
+        <div class="popular-card">
+          <img
+            id="popular-img"
+            src="https://www.melskitchencafe.com/wp-content/uploads/2023/01/updated-lava-cakes7.jpg"
+            alt=""
+          />
+          <h3 style="margin-bottom: 10px; margin-left: 20px; color: white">
+            Molten Chocolate Cake (Lava Cake)
+          </h3>
+          <p
+            style="
+              margin-bottom: 10px;
+              font-size: small;
+              margin-left: 0px;
+              padding: 0px 20px;
+              color: white;
+            "
+          >
+            A baked exterior that gives way to a warm, flowing liquid chocolate center, usually served with vanilla ice cream.
+          </p>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-weight: 700;
+              margin-left: 20px;
+              color: white;
+            "
+          >
+            $5
+          </p>
+          <button class="order-now-button">Add to Cart</button>
+          <button class="order-now-button">Order Now</button>
+        </div>
+        <div class="popular-card">
+          <img
+            id="popular-img"
+            src="https://simplyhomecooked.com/wp-content/uploads/2021/11/bread-pudding-recipe-6.jpg"
+            alt=""
+          />
+          <h3 style="margin-bottom: 10px; margin-left: 20px; color: white">
+            Warm Bread Pudding
+          </h3>
+          <p
+            style="
+              margin-bottom: 10px;
+              font-size: small;
+              margin-left: 0px;
+              padding: 0px 20px;
+              color: white;
+            "
+          >
+            A rustic dessert made of baked brioche or artisan breads in a sweet custard, served warm in a bourbon or caramel sauce.
+
+          </p>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-weight: 700;
+              margin-left: 20px;
+              color: white;
+            "
+          >
+            $5
+          </p>
+          <button class="order-now-button">Add to Cart</button>
+          <button class="order-now-button">Order Now</button>
+        </div>
+        <div class="popular-card">
+          <img
+            id="popular-img"
+            src="https://jennifercooks.com/wp-content/uploads/2025/09/bananas-foster-french-toast-recipe-jennifercooks.com-3-copy-scaled.jpg"
+            alt=""
+          />
+          <h3 style="margin-bottom: 10px; margin-left: 20px; color: white">
+            Bananas Foster
+          </h3>
+          <p
+            style="
+              margin-bottom: 10px;
+              font-size: small;
+              margin-left: 0px;
+              padding: 0px 20px;
+              color: white;
+            "
+          >
+            Bananas sautéed in butter, brown sugar, cinnamon, and dark rum, ignited tableside and poured over vanilla ice cream.
+          </p>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-weight: 700;
+              margin-left: 20px;
+              color: white;
+            "
+          >
+            $5
+          </p>
+          <button class="order-now-button">Add to Cart</button>
+          <button class="order-now-button">Order Now</button>
+        </div>
+      </div>
+    </section>
+    <!-- drinks section -->
+    <section class="cocktails">
+      <h2 style="font-size: 40px; text-align: center">Cocktails</h2>
+      <p style="text-align: center; margin-bottom: 40px; font-size: small;">
+        --- see our trending cocktail options ---
+      </p>
+      <div class="starters-container">
+        <div class="popular-card">
+          <img
+            id="popular-img"
+            src="https://static-prod.remymartin.com/app/uploads/2025/02/remy-martin-cocktails-remy-espresso-1x1-250220-02.jpg"
+            alt=""
+          />
+          <h3 style="margin-bottom: 10px; margin-left: 20px; color: white">
+            Espresso Martini
+          </h3>
+          <p
+            style="
+              margin-bottom: 10px;
+              font-size: small;
+              margin-left: 0px;
+              padding: 0px 20px;
+              color: white;
+            "
+          >
+            A continuing powerhouse mixing vodka, coffee liqueur, and fresh espresso, often kept ready-to-pour or on draft in trendy bars.
+          </p>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-weight: 700;
+              margin-left: 20px;
+              color: white;
+            "
+          >
+            $5
+          </p>
+          <button class="order-now-button">Add to Cart</button>
+          <button class="order-now-button">Order Now</button>
+        </div>
+        <div class="popular-card">
+          <img
+            id="popular-img"
+            src="https://cocktailfun.com/img/webp/picante-de-la-casa.webp"
+            alt=""
+          />
+          <h3 style="margin-bottom: 10px; margin-left: 20px; color: white">
+            Picante de la Casa
+          </h3>
+          <p
+            style="
+              margin-bottom: 10px;
+              font-size: small;
+              margin-left: 0px;
+              padding: 0px 20px;
+              color: white;
+            "
+          >
+            Agave-based drinks infused with chili, lime, and cilantro continue to dominate contemporary dinner.
+          </p>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-weight: 700;
+              margin-left: 20px;
+              color: white;
+            "
+          >
+            $5
+          </p>
+          <button class="order-now-button">Add to Cart</button>
+          <button class="order-now-button">Order Now</button>
+        </div>
+        <div class="popular-card">
+          <img
+            id="popular-img"
+            src="https://www.liquor.com/thmb/KPTRXSVO7vyx7O2fPyNkLh9JQPo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mezcal-negroni-1500x1500-primary-6f6c472050a949c8a55aa07e1b5a2d1b.jpg"
+            alt=""
+          />
+          <h3 style="margin-bottom: 10px; margin-left: 20px; color: white">
+            Mezcal Negroni
+          </h3>
+          <p
+            style="
+              margin-bottom: 10px;
+              font-size: small;
+              margin-left: 0px;
+              padding: 0px 20px;
+              color: white;
+            "
+          >
+            A smoky twist on the classic Italian cocktail, swapping gin for artisanal mezcal to pair with sweet vermouth and Campari.
+
+          </p>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-weight: 700;
+              margin-left: 20px;
+              color: white;
+            "
+          >
+            $5
+          </p>
+          <button class="order-now-button">Add to Cart</button>
+          <button class="order-now-button">Order Now</button>
+        </div>
+        <div class="popular-card">
+          <img
+            id="popular-img"
+            src="https://idealistfoods.com/wp-content/uploads/2021/10/Cocktail_CoffeeBoulevardier_optimized_sp.jpg"
+            alt=""
+          />
+          <h3 style="margin-bottom: 10px; margin-left: 20px; color: white">
+            Boulevardier
+          </h3>
+          <p
+            style="
+              margin-bottom: 10px;
+              font-size: small;
+              margin-left: 0px;
+              padding: 0px 20px;
+              color: white;
+            "
+          >
+            A rich and warm autumn-winter staple that swaps out the Negroni’s gin for smooth bourbon or rye whiskey.
+          </p>
+          <p
+            style="
+              margin-bottom: 15px;
+              font-weight: 700;
+              margin-left: 20px;
+              color: white;
+            "
+          >
+            $5
+          </p>
+          <button class="order-now-button">Add to Cart</button>
+          <button class="order-now-button">Order Now</button>
+        </div>
+      </div>
+    </section> 
+    <!-- footer -->
+    <footer class="menu-footer">
+      <div class="footer-container">
+        <div class="footer-div">
+          <h3 style="margin-bottom: 10px">
+            <i class="fa-solid fa-plate-wheat"></i>Food-To-Go
+          </h3>
+          <p style="margin-bottom: 10px; font-size: small">
+            Delicious food made with love. Fresh Ingredients, exceptional taste.
+          </p>
+          <div class="icons-socmed">
+            <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"
+              ><i style="color: black" class="fa-brands fa-instagram"></i
+            ></a> 
+            <a href="https://web.whatsapp.com/" target="_blank"
+              ><i style="color: black" class="fa-brands fa-whatsapp"></i
+            ></a>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i style="color: black" class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://x.com/?lang=en" target="_blank"
+              ><i style="color: black" class="fa-brands fa-x-twitter"></i
+            ></a>
+          </div>
+        </div>
+        <div style="text-align: left" class="footer-div">
+          <div class="quick-links">
+            <h3 style="margin-bottom: 10px">Quick Links</h3>
+            <a style="text-decoration: none; color: black" href=""
+              ><p style="font-size: small; color: black;">About Us</p></a
+            >
+            <a style="text-decoration: none; color: black" href=""
+              ><p style="font-size: small; color: black;">Contact</p></a
+            >
+          </div>
+        </div>
+        <div class="footer-div">
+          <div class="contact-us-div">
+            <h3 style="margin-bottom: 10px">Contact Us</h3>
+            <p style="font-size: small; margin-bottom: 5px">
+              <i class="fa-solid fa-location-dot"></i> North Paravur, Ernakulam
+            </p>
+            <p style="font-size: small; margin-bottom: 5px">
+              <i class="fa-solid fa-phone"></i> +91 77366 10331
+            </p>
+            <p style="font-size: small; margin-bottom: 5px">
+              <i class="fa-solid fa-envelope"></i> arungopalmg.ag@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+      <p style="font-size: 10px; text-align: center; font-weight: bold">
+        ©Food-To-Go. All Rights Reserved
+      </p>
+    </footer> 
+  </body>
+</html>

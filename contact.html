@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- favicon  CDN -->
+     <link rel="icon" type="image/png" href="./media/food-to-go-round-favicon.png">
+    <!--Font Awesome CDN  --> 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@400..700&family=Changa+One:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Kaushan+Script&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <span id="website-name"
+          ><img style="width: 40px; height: 40px;" src="./media/food-to-go-round-favicon.png" alt=""></i>Food-To-Go</span
+        >
+        <input type="checkbox" id="check"/>
+        <label for="check" class="icons">
+          <i id="menuIcons" class="fa-solid fa-bars"></i>
+          <i id="cancelIcons" class="fa-regular fa-circle-xmark"></i>
+        </label>
+        <ul id="navlist" class="navlinks">
+          <li style="margin-top: 8px" class="links">
+            <a class="link" href="./menu.html">Menu</a>
+          </li>
+          <li style="margin-top: 8px" class="links">
+            <a class="link" href="./about.html">About</a>
+          </li>
+          <li style="margin-top: 8px" class="links">
+            <a class="link" href="./index.html">Home</a>
+          </li>
+          <a href="./contact.html#book-here">
+            <button class="book-now links">
+            Book Now <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button></a>
+          <!-- <li style="margin-top: 5px" class="links">
+            <a href=""
+              ><i
+                style="color: var(--text); font-size: 25px"
+                class="fa-solid fa-circle-user"
+              ></i
+            ></a>
+          </li> -->
+        </ul>
+    </nav> 
+    <!-- contact us heading -->
+    <div class="contact-head-cont">
+      <h1>Contact Us</h1>
+    </div>
+    <!-- reach out section -->
+    <section class="reach-out">
+      <div class="reach-out-text">
+        <h3 style="font-size: 40px; margin-bottom: 10px">
+          Get in touch
+          <span
+            style="
+              color: var(--accent);
+              font-family: &quot;Kaushan Script&quot;, cursive;
+            "
+            >with us</span
+          >
+        </h3>
+        <p style="font-size: small; margin-bottom: 10px">
+          Have questions or feedback? Reach out to us through the form below,
+          call us or visit our restaurant. We're here to help. Looking forward
+          to connecting with you.
+        </p>
+        <p style="font-size: small; margin-bottom: 10px">
+          North Paravur, Ernakulam, Kerala, India.
+        </p>
+        <p style="font-size: small; margin-bottom: 10px">+91 77366 10331</p>
+        <p style="font-size: small; margin-bottom: 10px">
+          arungopalmg.ag@gmail.com
+        </p>
+      </div>
+      <div class="reach-out-form">
+        <form action="">
+          <div class="name">
+            <label class="input-label" for="">Your Name</label>
+            <input class="input-area" type="text" style="padding: 10px" />
+          </div>
+          <div class="eml-and-phn">
+            <div class="eml">
+              <label class="input-label" for="">Email</label>
+              <input
+                class="input-area"
+                type="email"
+                placeholder="eg: abcd@gmail.com"
+                style="width: 250px; padding: 10px"
+              />
+            </div>
+            <div class="phn">
+              <label class="input-label" for="">Phone Number</label>
+              <input
+                class="input-area"
+                type="number"
+                placeholder="eg: 12345 67898"
+                style="padding: 10px"
+              />
+            </div>
+          </div>
+          <div class="name">
+            <label class="input-label" for="">Your Message</label>
+            <textarea
+              class="input-area"
+              placeholder="write your message here"
+              name="message"
+              id="message-box"
+              style="height: 80px"
+            ></textarea>
+          </div>
+          <button class="submit-enq">Submit Enquiry</button>
+        </form>
+      </div>
+    </section>
+    <!-- map section -->
+    <section class="map">
+      <h3 style="font-size: 40px; margin-bottom: 20px">Our Location</h3>
+      <div class="map-container">
+        <!-- Google Map Iframe -->
+        <iframe
+          id="loc-map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.572797945971!2d76.34006767479387!3d10.01890359008749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080ffce877d5ef%3A0x8bef6870ad11b98!2sLuminar%20Technolab%20-%20Software%20Training%20institute%20in%20Kochi!5e1!3m2!1sen!2sin!4v1793533954160!5m2!1sen!2sin"
+          width="900"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
+      </div>
+    </section>
+    <!-- Book a table -->
+    <section id="book-here" class="reach-out">
+      <div class="reach-out-text">
+        <h3 style="font-size: 40px; margin-bottom: 10px">
+          Reserve your table now and
+          <span
+            style="
+              color: var(--accent);
+              font-family: &quot;Kaushan Script&quot;, cursive;
+            "
+            >enjoy the dining experience</span
+          >
+        </h3>
+        <p style="font-size: small; margin-bottom: 10px; font-weight: bold">
+          Open Hours :
+        </p>
+        <p style="font-size: small; margin-bottom: 10px">
+          Mon - Thu : 10:00 AM - 9:00 PM
+        </p>
+        <p style="font-size: small; margin-bottom: 10px">
+          Fri - Sat : 9:00 AM - 10:00 PM
+        </p>
+        <p style="font-size: small; margin-bottom: 10px; font-weight: bold">
+          Sunday - Closed
+        </p>
+      </div>
+      <div class="reach-out-form">
+        <form action="">
+          <div class="name">
+            <label class="input-label" for="">Your Name</label>
+            <input class="input-area" type="text" style="padding: 10px" />
+          </div>
+          <div class="eml-and-phn">
+            <div class="eml">
+              <label class="input-label" for="">Email</label>
+              <input
+                class="input-area"
+                type="email"
+                placeholder="eg: abcd@gmail.com"
+                style="width: 250px; padding: 10px"
+              />
+            </div>
+            <div class="phn">
+              <label class="input-label" for="">Phone Number</label>
+              <input
+                class="input-area"
+                type="number"
+                placeholder="eg: 12345 67898"
+                style="padding: 10px"
+              />
+            </div>
+          </div>
+          <div class="eml-and-phn">
+            <div class="eml">
+              <label class="input-label" for="">Date</label>
+              <input
+                class="input-area"
+                type="date"
+                placeholder="eg: abcd@gmail.com"
+                style="padding: 10px"
+              />
+            </div>
+            <div class="phn">
+              <label class="input-label" for="">Time</label>
+              <input
+                class="input-area"
+                type="time"
+                placeholder="eg: 12345 67898"
+                style="padding: 10px"
+              />
+            </div>
+            <div class="phn">
+              <label class="input-label" for="">Number of Person</label>
+              <input
+                class="input-area"
+                type="number"
+                placeholder="upto 10"
+                style="padding: 10px"
+              />
+            </div>
+          </div>
+          <button class="submit-enq">Reserve Now</button>
+        </form>
+      </div>
+    </section>
+    <!-- contact page footer -->
+    <footer class="contact-footer">
+      <div class="footer-container">
+        <div class="footer-div">
+          <h3 style="margin-bottom: 10px">
+            <i class="fa-solid fa-plate-wheat"></i>Food-To-Go
+          </h3>
+          <p style="margin-bottom: 10px; font-size: small">
+            Delicious food made with love. Fresh Ingredients, exceptional taste.
+          </p>
+          <div class="icons-socmed">
+            <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"
+              ><i style="color: black" class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://web.whatsapp.com/" target="_blank"
+              ><i style="color: black" class="fa-brands fa-whatsapp"></i
+            ></a> 
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i style="color: black" class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://x.com/?lang=en" target="_blank"
+              ><i style="color: black" class="fa-brands fa-x-twitter"></i
+            ></a>
+          </div>
+        </div>
+        <div style="text-align: left" class="footer-div">
+          <div class="quick-links">
+            <h3 style="margin-bottom: 10px">Quick Links</h3>
+            <a style="text-decoration: none; color: black" href=""
+              ><p style="font-size: small">About Us</p></a
+            >
+            <a style="text-decoration: none; color: black" href=""
+              ><p style="font-size: small">Contact</p></a
+            >
+          </div>
+        </div>
+        <div class="footer-div">
+          <div class="contact-us-div">
+            <h3 style="margin-bottom: 10px">Contact Us</h3>
+            <p style="font-size: small; margin-bottom: 5px">
+              <i class="fa-solid fa-location-dot"></i> North Paravur, Ernakulam
+            </p>
+            <p style="font-size: small; margin-bottom: 5px">
+              <i class="fa-solid fa-phone"></i> +91 77366 10331
+            </p>
+            <p style="font-size: small; margin-bottom: 5px">
+              <i class="fa-solid fa-envelope"></i> arungopalmg.ag@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+      <p style="font-size: 10px; text-align: center; font-weight: bold">
+        ©Food-To-Go. All Rights Reserved
+      </p>
+    </footer>
+  </body>
+</html>
